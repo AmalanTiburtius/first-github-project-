@@ -9,6 +9,7 @@
 
 h1, h2, h3, h4, h5, h6, span { 
     color: #242424;
+    text-align: center; 
     line-height: 1.25; 
 }
 
@@ -26,11 +27,11 @@ li {
     list-style-type: none;
 }
 
-flex { 
+.flex { 
     display: flex;
 }
 
-flex-1 { 
+.flex-1 { 
     flex: 1;  
  } 
 
@@ -147,16 +148,15 @@ nav {
     padding: 0 16px; 
 
 }
-.about-me__img--container { 
-    flex: 1; 
+.about-me__img { 
+    flex:1; 
     display: flex;
     align-items: center;
-    /* padding:100px;  */
-    
+ 
 }
-
+/* 
 .about-me__img { 
     width:100%
 
 }
-
+ */
